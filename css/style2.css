@@ -1,0 +1,55 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-box {
+    background-color: rgba(0, 0, 0, 0.4);
+    /* height: 100vh;   vh = viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: solid tomato 2px;
+    justify-content: stretch;
+    height: 50vh;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: fit-content;
+    /* align-content: center; */
+    justify-content: center;
+    border: 1px solid red;
+    background-color: palegreen;
+    margin: auto;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    right: 25%;
+    bottom: 25%;
+}
+
+h2.posicion-end{
+    vertical-align: bottom;
+    align-self: baseline;
+    justify-content: ;
+}
+
+.wide{
+    text-align: center;
+    /* background-color: pink; */
+    border: 2px solid blue;
+}
+
+.gray{
+    background-color: gray;
+}
+
+.h1-center{
+    text-align: center;
+}
